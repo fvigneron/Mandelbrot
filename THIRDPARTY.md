@@ -14,4 +14,4 @@ Note that the applications `hypQuick` and `misQuick` use hardware arithmetic (FP
 
 We **welcome** the idea of using alternative libraries for high-precision arithmetic, in particular if your
 favorite library works on GPU or in a mixed CPU/GPU environment. If you are interested, please contact me
-(<francois.vigneron@univ-reims.fr>) so we can discuss evolving `FastPolyEval` together :wink:.
+(<francois.vigneron@univ-reims.fr>) so we can discuss evolving `Mandelbrot` together :wink:.
