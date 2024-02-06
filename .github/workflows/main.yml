@@ -1,0 +1,55 @@
+name: Build Linux
+
+#on:
+#  push:
+#    branches: [ "main" ] 
+#  pull_request:
+#    branches: [ "main" ]
+on:
+  # Called to create release.
+  workflow_call:
+    inputs:
+      config-path:
+        required: true
+        type: string
+    secrets:
+      token:
+        required: true
+  workflow_dispatch:
+
+jobs:
+  linux_build:
+    runs-on: ${{ matrix.platform.os }}-${{ matrix.platform.version }}
+    strategy:
+      matrix:
+        platform:
+          - os: ubuntu
+            version: 22.04
+            arch: x86_64
+            build: release
+    steps:
+    - uses: actions/labeler@v4
+      if: ${{ github.event_name == 'workflow_call' }}
+      with:
+        repo-token: ${{ secrets.token }}
+        configuration-path: ${{ inputs.config-path }}
+
+    - uses: actions/checkout@v3
+
+    - name: Install MPFR library
+      run: sudo apt-get install -y libmpfr-dev
+
+    - name: Build default app
+      run: make mandelbrot
+      working-directory: code
+
+    - name: List the binaries that where build in the previous steps
+      run: ls -l ./bin
+
+    - name: Basic test (dry run)
+      run: ./Mandelbrot -help || true
+      working-directory: bin
+
+    - name: Cleanup
+      run: make clean
+      working-directory: code
