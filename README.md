@@ -1,4 +1,4 @@
-# Mandelbrot : a numerical microscope to study the Mandelbrot set
+# Mandelbrot : a numerical microscope
 
 `Mandelbrot` is a library, written in C, that aims to be a complete toolbox to study the Mandelbrot set.
 
