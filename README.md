@@ -9,8 +9,8 @@ https://fvigneron.github.io/Mandelbrot
 More details comming soon.
 
 
-[![Linux Build](https://github.com/fvigneron/FastPolyEval/actions/workflows/build_Linux.yml/badge.svg)](https://github.com/fvigneron/FastPolyEval/actions/workflows/build_Linux.yml)
-[![MacOS Build](https://github.com/fvigneron/FastPolyEval/actions/workflows/build_MacOS.yml/badge.svg)](https://github.com/fvigneron/FastPolyEval/actions/workflows/build_MacOS.yml)
-[![Windows Build](https://github.com/fvigneron/FastPolyEval/actions/workflows/build_Windows.yml/badge.svg)](https://github.com/fvigneron/FastPolyEval/actions/workflows/build_Windows.yml)
+[![Linux Build](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_Linux.yml/badge.svg)](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_Linux.yml)
+[![MacOS Build](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_MacOS.yml/badge.svg)](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_MacOS.yml)
+[![Windows Build](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_Windows.yml/badge.svg)](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_Windows.yml)
 
-[![Documentation](https://github.com/fvigneron/FastPolyEval/actions/workflows/documentation.yml/badge.svg)](https://github.com/fvigneron/FastPolyEval/actions/workflows/documentation.yml)
+[![Documentation](https://github.com/fvigneron/Mandelbrot/actions/workflows/documentation.yml/badge.svg)](https://github.com/fvigneron/Mandelbrot/actions/workflows/documentation.yml)
