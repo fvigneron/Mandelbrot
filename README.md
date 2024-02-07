@@ -8,6 +8,9 @@ https://fvigneron.github.io/Mandelbrot
 
 More details comming soon.
 
+<p align="center">
+  <img src="documentation/images/LevLinesAlgo.png" />
+</p>
 
 [![Linux Build](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_Linux.yml/badge.svg)](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_Linux.yml)
 [![MacOS Build](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_MacOS.yml/badge.svg)](https://github.com/fvigneron/Mandelbrot/actions/workflows/build_MacOS.yml)
